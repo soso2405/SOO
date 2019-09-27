@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Site WOLOLO</title>
+	<title><?php bloginfo('name');?>-<?php bloginfo('description');?></title>
+
 </head>
 <body>
 	<header>
-		<h1> WOLOLO </h1>
+		<h1> <?php bloginfo('name');?></h1>
+		<h2> <?php bloginfo('description');?> </h2>
 	</header>
 
 </body>
