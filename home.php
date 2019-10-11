@@ -16,5 +16,5 @@
 
 <?php endwhile;?> <!-- équiavalent à l'accolade-->
 
-
+<?php the_posts_pagination();?>
 <?php get_footer();?>
