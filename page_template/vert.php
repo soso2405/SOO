@@ -1,9 +1,9 @@
 /**
-* Template Name : rose
-* Description : page avec fond rose
+* Template Name: vert
+* Description: page avec fond vert
 */
 <?php get_header();?>
-<section style="background_color=pink;">
+<section style="background-color: green;">
 
 <h1><?php bloginfo('name');?> </h1>
 

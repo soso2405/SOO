@@ -1,9 +1,11 @@
 /**
-* Template Name : rose
-* Description : page avec fond rose
+* Template Name: rose
+* Description: page avec fond rose
 */
 
 <?php get_header();?>
+<section style="background-color: pink;">
+
 
 <h1><?php bloginfo('name');?> </h1>
 
@@ -22,5 +24,5 @@
 
 <?php endwhile;?> <!-- équiavalent à l'accolade-->
 
-
+</section>
 <?php get_footer();?>
