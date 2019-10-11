@@ -12,6 +12,7 @@
   <article>
         <h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
         <div><?php the_content();?></div>
+        <p> Publié le <?php the_time();?> par <?php the_author_posts_link();?></p>  
   </article>
 
 <?php endwhile;?> <!-- équiavalent à l'accolade-->
