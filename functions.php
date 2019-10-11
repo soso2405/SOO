@@ -29,8 +29,10 @@ register_nav_menus(array('menu-principal'=>'Menu principal',
 
 //Style et script
 function ajout_styles_et_scripts(){
+
   wp_enqueue_style('reset', get_template_directory_uri().'/css/reset.css');
   wp_enqueue_style('general', get_template_directory_uri().'/css/site.css');
+
   wp_enqueue_script('mon-js', get_template_directory_uri().'/js/mon-js.js');
 }
   add_action('up_enqueue_scripts','ajout_styles_et_scripts');
