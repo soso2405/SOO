@@ -14,6 +14,10 @@
         <div><?php the_content();?></div>
         <p> Publié le <?php the_time();?> par <?php the_author_posts_link();?></p>
         <div><p> Cet article a <?php comments_number('aucun commentaire', 'un commentaire', '% commentaires');?></p>
+        <?php if(comments_open() || get_comments_number())
+        {
+          comments_template();
+        }?>
   </article>
 
 <?php endwhile;?> <!-- équiavalent à l'accolade-->
