@@ -5,4 +5,16 @@
 <section>
   <aside><?php get_sidebar();?></aside>
 </section>
+
+<!-- The loop -->
+<?php while(have_posts()):
+        the_post();?>
+  <article>
+        <h2><?php the_title();?></h2>
+        <div><?php the_content();?></div>
+  </article>
+
+<?php endwhile;?> <!-- équiavalent à l'accolade-->
+
+
 <?php get_footer();?>
