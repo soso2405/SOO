@@ -1,0 +1,21 @@
+    .bgblanc {
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+         background-color: white;
+    padding: 60px 0;
+    color: #002456;
+    }
+
+    .soustitre {
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+p label span {
+    margin-top: 10px;
+    display: block;
+}

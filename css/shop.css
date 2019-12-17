@@ -1,0 +1,111 @@
+body {
+    background-color: #f8b00d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    height: 100%;
+}
+
+.fil {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+
+.fil p {
+    color: #27215b;
+    margin-right: 10px;
+}
+
+.fil .blanc {
+    color: white;
+}
+
+.colone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vh;
+}
+
+.soustitre {
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.rangementcase {
+    background-color: white;
+    padding: 30px;
+    color: #002456;
+}
+
+.ligne {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.grandecase {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 28%;
+}
+
+.gre {
+    position: relative;
+}
+
+.rangementcase p {
+    text-align: center;
+}
+
+.gras {
+    font-weight: 900;
+    font-size:9px;
+    margin:7%;
+}
+
+.sac {
+    transition: all 0.3s ease-out;
+    max-width: 100%;
+    height: auto;
+}
+
+.gre:hover .bli {
+    transition: all 0.3s ease-out;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.bli {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.dodo {
+    background-color: white;
+}
+
+.none{
+	display: none;
+}
+
+select, .boutton {
+    padding:10px;
+    background-color: white;
+    margin-bottom: 20px;
+    float: right;
+    margin-right: auto;
+    border-color: white;
+}
+
+.sousbloc, .sousbloc2 {
+    display: none;
+}

@@ -1,11 +1,33 @@
+<body class="nature">
+    
+
+    <div id="wrap">
 <?php get_header();?>
+<style type="text/css">
+    .rangementcase p {
+    	margin-bottom: 20px;
+    }
+    p.contact{
+        margin-top: 30px;
+        font-weight: 400;
 
-<h1><?php bloginfo('name');?> </h1>
+    }
+    article h2 {
+    	font-weight: 400;
+    	font-size: 25px;
+    	margin: 0 0 60 0;
+    }
+    .rangementcase {
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	padding:80px 0;
+    	background-color: white;
+    }
 
-<section>
-  <aside><?php get_sidebar();?></aside>
-</section>
+ </style>
 
+<div class="rangementcase">
 <!-- The loop -->
 <?php while(have_posts()):
         the_post();?>
@@ -17,5 +39,7 @@
 
 <?php endwhile;?> <!-- équiavalent à l'accolade-->
 
+</div>
 
 <?php get_footer();?>
+</div>

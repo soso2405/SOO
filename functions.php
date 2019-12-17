@@ -35,3 +35,8 @@ function ajout_styles_et_scripts(){
   wp_enqueue_script('mon-js', get_template_directory_uri().'/js/mon-js.js');
 }
   add_action('up_enqueue_scripts','ajout_styles_et_scripts');
+
+  function com_anonyme(){
+    return true;
+  }
+add_filter('rest_allow_anonymous_comments','com_anonyme');

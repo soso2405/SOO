@@ -1,0 +1,62 @@
+footer {
+    background-color: #ffffff;
+
+}
+
+.logovague {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 120px;
+}
+
+.sousmenu {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.sousmenu h2 {
+    padding: 2px;
+}
+
+.sousmenu a {
+    transition: all 0.3s ease-out;
+}
+
+.reseau {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.droit {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 25px 0px 50px 0px;
+}
+
+img.res {
+    padding: 15px;
+    transition: all 0.3s ease-out;
+}
+
+img.res:hover {
+    opacity: 0.5;
+    transition: all 0.3s ease-out;
+}
+
+
+.sousmenu a:hover {
+    opacity: 0.5;
+    transition: all 0.3s ease-out;
+}
+
+p {
+    margin-bottom: 7%;
+}

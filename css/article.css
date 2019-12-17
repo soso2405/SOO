@@ -1,0 +1,273 @@
+body {
+    background-color: #f8b00d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    height: 100%;
+}
+
+.fil {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.fil p {
+    color: #27215b;
+    margin-right: 10px;
+}
+
+.fil .blanc {
+    color: white;
+}
+
+.soustitre {
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-bottom: 60px;
+}
+
+
+.dodo {
+    margin-top: 20px;
+    background-color: white;
+   
+}
+
+
+
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sousbloc2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-carousel {
+    width: 100%;
+}
+
+.flickity-button {
+
+    color: #fff;
+    background: hsla(0, 0%, 100%, 0);
+}
+
+
+.play {
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.83);
+    box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.83);
+}
+
+
+.play img {
+    transform: translate(3px);
+}
+
+.relative {
+    position: relative;
+}
+
+
+.pro2 {
+    color: #a6a6a6;
+    padding: 50px;
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 13px;
+
+}
+
+.vide {
+    margin-top: 35px;
+    font-size: 30px;
+}
+
+.sousbloc h2 {
+    text-align: left;
+}
+
+.wrapi {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 85%;
+}
+
+.pro3 {
+    color: #a6a6a6;
+    padding: 30px 0;
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 13px;
+
+}
+
+.grey {
+    width: 100%;
+    background-color: #eeeeee;
+    height: 1px;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.tipe {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.c1 {
+    background-color: #f7ca6a;
+}
+
+.c2 {
+    background-color: #c9f9f3;
+}
+
+.c3 {
+    background-color: #f9c9f1;
+}
+
+.c4 {
+    background-color: #fec5b4;
+}
+
+.colo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.titre {
+    padding-top: 100px;
+}
+
+.selectsize {
+    color: black !important;
+}
+
+.noneselect {
+    cursor: pointer;
+}
+
+.selectcolor {
+    border: solid black 1px;
+}
+
+.colo .taille p {
+    color: #c6c6c6;
+    margin-right: 8px;
+}
+
+.flex4 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.quantity {
+    width: 60px;
+}
+
+.buy {
+    height: 50px;
+    display: flex;
+}
+
+.buy p {
+    font-weight: 500;
+    padding: 18px;
+}
+
+.sousbuy {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    transition: all 0.6s ease-out;
+    cursor: pointer;
+}
+
+
+.black:hover {
+
+    color: grey;
+
+    transition: all 0.6s ease-out;
+    cursor:
+}
+
+
+
+
+
+.gras, .gre{
+    display: none;
+}
+
+#post {
+    display: flex;
+}
+
+.wp-image {
+    width: 100%;
+}
+
+.sousbloc {
+    width: 50%;
+}
+
+.moin,
+.plus {
+    cursor: pointer;
+    margin:0 10px;
+    width:15px;
+    height:15px;
+}
+
+.retour {
+    
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: auto;
+}
+
+.black p{
+    color:white;
+}
